@@ -19,6 +19,7 @@ function Proficiency(){
 
               <ProficiencyCard techImg="https://seller.streetbell.com/wp-content/uploads/2020/01/isometric-icons-online-education-blob-min-uai-828x828-1.png" techTitle="Backend" techStack=" MERN Application, Modern App with MongoDB" />
             </div>
+            <hr/>
         </div>
         </div>
         <br/><br/>

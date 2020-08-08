@@ -1,7 +1,8 @@
 
   .bg-info{
     
-    background-color: #eeeeee !important;
+    background-color: #f0f0f0 !important;
+    box-shadow: 5px 4px 9px rgba(0, 0, 0, 0.2);
   }
   
   .circle {
@@ -11,8 +12,8 @@
     text-align: center;
     line-height: 80px;
     border-radius: 50%;
-    border: 5px solid #6C59BC;
-    background-color: #6C59BC;
+    border: 5px solid #b500b8;
+    background-color: #b500b8;
     box-shadow: inset 0 0 0 5px white ;
   }
   .number{

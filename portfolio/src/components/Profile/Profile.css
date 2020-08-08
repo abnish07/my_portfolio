@@ -4,8 +4,17 @@ body{
 
 .rightHandProfile{
     background-color: #6C59BC;
-    height: 100vh;
+    height: 95vh;
     color: white;
+    border-radius: 5px;
+}
+
+hr{
+    width: 103%;
+    margin-top: -1px;
+    margin-left: -20px;
+    background-color: lightgray;
+    height:5px
 }
 
 .text-primary{

@@ -4,6 +4,8 @@ import Profile from './components/Profile/Profile';
 import Proficiency from './components/Profile/Proficiency';
 import Project from './components/Profile/Project';
 import Stats from './components/Profile/Stats';
+import GithubCalendar from './components/Profile/GithubCalendar';
+import Copyright from './components/Profile/Copyright';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
      <Proficiency />
      <Project />
      <Stats />
+     <GithubCalendar />
+     <Copyright />
     </div>
   );
 }

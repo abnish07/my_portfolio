@@ -63,6 +63,7 @@ function Profile(){
              
             </div>           
         </div>
+        <hr  />
         </div>
         </>
     )
