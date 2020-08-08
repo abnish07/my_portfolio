@@ -16,7 +16,7 @@ function Profile(){
                 <h6 className="fullStack pt-2">Full Stack Developer</h6>
                 <i class="fas fa-map-marker-alt location pt-3"><span className="ml-2 location">Patna, Bihar, India</span></i>
                 <p className="desc pt-4 text-sm-center">A passionate aspiring Full Stack Developer skilled in front end JavaScript/ES6/ES2017 areas, moduled and shaped by Masai's intensive and immensive learning. Look forward to join a company where I shall be able to contribute towards individual and company growth.  </p>
-                <i className="resume"><a href=""> View full Resume</a></i>
+                <i className="resume"><a href="/images/Resume.pdf" target="_blank"> View full Resume</a></i>
                 <div className="contact pt-5">
                 <i class="fas fa-phone-alt"></i> +91-8051665056 </div>
                 <div className="contact pt-1"><i class="fas fa-envelope"></i> akp12556@gmail.com </div>
