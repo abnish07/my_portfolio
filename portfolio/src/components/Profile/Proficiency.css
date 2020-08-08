@@ -7,3 +7,9 @@
     padding: 5px;
     border: 1px solid #A8A8A8;
   }
+
+  hr{
+    
+    background-color: lightgray;
+    height:5px
+}

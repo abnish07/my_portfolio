@@ -17,7 +17,7 @@ function Profile(){
         <>
         <div className="container mb-5">
             <h1 className="text-center text-dark "> Projects</h1>
-            <div class='row mt-5'>
+            <div class='row mt-5 text-center'>
              <ProjectCard 
              projectName="Project 1"
              projectTitle = "Typewriter"

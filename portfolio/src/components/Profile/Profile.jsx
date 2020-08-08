@@ -26,8 +26,9 @@ function Profile(){
                <i class="fab fa-linkedin socialIcon"></i>
                <i class="fab fa-twitter-square socialIcon"></i>
                </div>
-            </div>           
-            <div className="rightHandProfile col-9">
+            </div>   
+            <div className="col-1"></div>        
+            <div className="rightHandProfile col-8">
                 <div className="pt-5">
                 <img src="/images/mypicture.png" className="myImg" alt="profileImg" />
                 <span className="smallCircle"></span>

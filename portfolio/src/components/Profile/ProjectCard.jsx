@@ -12,8 +12,9 @@ import './Project.css';
     console.log("projectStackImages", projectStackImages)
     return(
         <>
-               <div class ='col-12 col-sm-12 col-md-6 col-lg-4 mb-5'>        
-                    <h3 class="text-center">{projectName}</h3>
+               <div class ='col-12 col-sm-12 col-md-6 col-lg-4 mb-5 offset-sm-2 offset-md-3 offset-lg-0'>  
+               <div class=" text-center text-sm-center mt-4">    
+                    <h3 >{projectName}</h3></div>  
                     <div class="card mt-2 h-100 project shadow">
                         <div className="imgBack">
                             <img src={projectImg} class="card-img-top  img-fluid p-2" alt="..."/>
@@ -35,6 +36,7 @@ import './Project.css';
                     </div>
                 </div>
             </div>
+            
         </>
     )
 }

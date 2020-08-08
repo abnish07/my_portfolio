@@ -11,7 +11,7 @@ export default function Stats(){
             <br/><br/><br/>
         <div class='container'>
             <h1> </h1>
-            <div class="p-3 mb-2 bg-info text-white">
+            <div class="p-3 mb-2 bg-info text-white  ">
                 <div class='row mt-5 offset-1'>
                    <StatsCard 
                    

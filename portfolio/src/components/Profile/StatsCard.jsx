@@ -21,7 +21,7 @@ export default function StatsCard(props){
     return(
         <>
         
-         <div class='col-6 col-sm-6 col-md-4 col-lg-2 '>
+         <div class='col-6 col-sm-6 col-md-4 col-lg-2'>
 
       <ChangingProgressProvider values={[value ,0, value]} >
         {percentage => (
