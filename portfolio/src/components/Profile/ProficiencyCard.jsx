@@ -8,7 +8,7 @@ import './Proficiency.css';
     return(
         
         <>
-            <div className="col-3 text-center">
+            <div className=" col-sm-6 col-md-3 text-center">
                 <img src={techImg} className="techCategory" alt="frontend" />
                 <h5 className=" mt-2">{techTitle}</h5>
 

@@ -39,7 +39,7 @@ hr{
 .desc{
     color: #969696;
     font-size: 14px;
-    width: 300px;
+    width: auto;
     word-spacing: 1.4px;
     line-height: 25px
 }
@@ -95,6 +95,8 @@ hr{
     animation-iteration-count: infinite; 
     animation-direction: alternate; 
   }
+
+
 
   @keyframes catmove{ 
       0%{ background-color: #cffffe }
