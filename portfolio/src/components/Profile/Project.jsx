@@ -18,27 +18,58 @@ function Profile(){
         <div className="container mb-5">
             <h1 className="text-center text-dark "> Projects</h1>
             <div class='row mt-5 text-center'>
+
+            {/* one fine stay project */}
              <ProjectCard 
-             projectName="Project 1"
+             projectTitle = "Onefinestay"
+             projectImg = '/images/onefinestay_.png'
+             projectUrl = "http://finestay.abhishekray.tech/"
+             projectStackImages = {obj}
+             projectDesc ="Online Hotel Booking website, where user can book a variety of
+             hotels and make payment" 
+             />
+
+            <ProjectCard 
+             projectTitle = "Shopping Cart"
+             projectImg = '/images/shopping_cart.png'
+             projectUrl="https://shopping-cart-sigma.vercel.app/"
+             projectStackImages = {obj}
+             projectDesc ="Online shopping cart, select your product, Add add them into the cart, put delivery address and order online." 
+             />
+
+            <ProjectCard 
+             projectTitle = "Todo"
+             projectImg = '/images/todo_1.png'
+             projectUrl="https://todo-git-master.abnish07.vercel.app/"
+             projectStackImages = {obj}
+             projectDesc ="Add your items into todo, edit and update your items and remove
+             when complete." 
+             />
+
+            {/* Chrome Extension */}
+             <ProjectCard 
+             projectTitle = "Chrome Extension"
+             projectImg = '/images/tracker.png'
+             projectStackImages = {obj}
+             projectDesc ="A Tracker to track your waste time on your listing websites. Show the total time at the end of the day." 
+             />
+          
+            
+             <ProjectCard 
+             projectTitle = "Timer"
+             projectImg = '/images/timer_img.png'
+             projectUrl="/timer/timer.html"
+             projectStackImages = {obj}
+             projectDesc =" A java scrit project to show the timer and stopwatch. Timer takes input and run. Perform start, stop, pause and reset." 
+             />
+             <ProjectCard 
              projectTitle = "Typewriter"
              projectImg = '/images/typewriter.png'
+             projectUrl="/Typewriter/keyboard.html"
              projectStackImages = {obj}
-             projectDesc ="I made a Typewriter which has similar functionality like real typewriter" 
+             projectDesc ="A javascript project in which user can write, delete, reverse the string and convert the string into password string." 
              />
-             <ProjectCard 
-             projectName="Project 2"
-             projectTitle = "Timer & Stopwatch"
-             projectImg = '/images/stopwatch.png'
-             projectStackImages = {obj}
-             projectDesc ="I made Stopwatch and Timer to count the time according to their functionality" 
-             />
-             <ProjectCard 
-             projectName="Project 3"
-             projectTitle = "Typewriter"
-             projectImg = '/images/typewriter.png'
-             projectStackImages = {obj}
-             projectDesc ="I made a Typewriter which has similar functionality like real typewriter" 
-             />
+             
         </div>
     </div>
         </>
