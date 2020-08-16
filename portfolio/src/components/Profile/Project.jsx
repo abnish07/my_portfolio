@@ -71,7 +71,7 @@ function Profile(){
 
             <ProjectCard 
              projectTitle = "Todo"
-             projectImg = '/images/todo_1.png'
+             projectImg = '/images/todo_2.png'
              projectUrl="https://todo-git-master.abnish07.vercel.app/"
              projectStackImages = {objTodo}
              projectDesc ="Add your items into todo, edit and update your items and remove
