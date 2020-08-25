@@ -21,12 +21,11 @@ function Profile(){
         images4: '/images/bootstrap-4.svg',
         images5: '/images/redux.svg',
     }
-    let objTodo = {
+    let objPayment = {
         images1: '/images/react.svg',
         images2: '/images/html-5.svg',
         images3: '/images/css-5.svg',
         images4: '/images/bootstrap-4.svg',
-        images5: '/images/redux.svg',
     }
     let objChrome = {
         images2: '/images/html-5.svg',
@@ -70,12 +69,11 @@ function Profile(){
              />
 
             <ProjectCard 
-             projectTitle = "Todo"
-             projectImg = '/images/todo_2.png'
-             projectUrl="https://todo-git-master.abnish07.vercel.app/"
-             projectStackImages = {objTodo}
-             projectDesc ="Add your items into todo, edit and update your items and remove
-             when complete." 
+             projectTitle = "Payment Management App"
+             projectImg = '/images/payment_.png'
+             projectUrl="https://payment-beta.vercel.app/"
+             projectStackImages = {objPayment}
+             projectDesc ="user can add their income and expenses & perform add, delete and edit operation." 
              />
 
             {/* Chrome Extension */}
